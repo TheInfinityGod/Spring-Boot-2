@@ -1,0 +1,71 @@
+# Getting Started
+
+### Reference Documentation
+For further reference, please consider the following sections:
+
+* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
+* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/3.2.3/maven-plugin/reference/html/)
+* [Create an OCI image](https://docs.spring.io/spring-boot/docs/3.2.3/maven-plugin/reference/html/#build-image)
+
+
+kumar@LAPTOP-KGR2K0UQ MINGW64 ~/Downloads/spring/springboot2 (main)
+$ git init
+Initialized empty Git repository in C:/Users/kumar/Downloads/spring/springboot2/.git/
+
+kumar@LAPTOP-KGR2K0UQ MINGW64 ~/Downloads/spring/springboot2 (master)
+$ git add .
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.mvn/wrapper/maven-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'mvnw', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'mvnw.cmd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'pom.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/application/springboot2/Springboot2Application.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/test/java/com/application/springboot2/Springboot2ApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
+
+kumar@LAPTOP-KGR2K0UQ MINGW64 ~/Downloads/spring/springboot2 (master)
+$ git add .
+
+kumar@LAPTOP-KGR2K0UQ MINGW64 ~/Downloads/spring/springboot2 (master)
+$ git commit -m "first commit"
+[master (root-commit) e10af7d] first commit
+ 13 files changed, 684 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .mvn/wrapper/maven-wrapper.jar
+ create mode 100644 .mvn/wrapper/maven-wrapper.properties
+ create mode 100644 mvnw
+ create mode 100644 mvnw.cmd
+ create mode 100644 pom.xml
+ create mode 100644 src/main/java/com/application/springboot2/Springboot2Application.java
+ create mode 100644 src/main/java/com/application/springboot2/TestControllers/RetrieveFormsRequest.java
+ create mode 100644 src/main/java/com/application/springboot2/TestControllers/RetrieveFormsResponse.java
+ create mode 100644 src/main/java/com/application/springboot2/TestControllers/TestController.java
+ create mode 100644 src/main/java/com/application/springboot2/TestControllers/myManagementhandler.java
+ create mode 100644 src/main/resources/application.properties
+ create mode 100644 src/test/java/com/application/springboot2/Springboot2ApplicationTests.java
+
+
+kumar@LAPTOP-KGR2K0UQ MINGW64 ~/Downloads/spring/springboot2 (master)
+$ git remote add origin https://github.com/TheInfinityGod/Spring-boot-2.git
+
+kumar@LAPTOP-KGR2K0UQ MINGW64 ~/Downloads/spring/springboot2 (master)
+$ git remote -v
+origin  https://github.com/TheInfinityGod/Spring-boot-2.git (fetch)
+origin  https://github.com/TheInfinityGod/Spring-boot-2.git (push)
+
+kumar@LAPTOP-KGR2K0UQ MINGW64 ~/Downloads/spring/springboot2 (master)
+$ git push origin master
+Enumerating objects: 30, done.
+Counting objects: 100% (30/30), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (30/30), 63.95 KiB | 5.33 MiB/s, done.
+Total 30 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/TheInfinityGod/Spring-boot-2.git
+ * [new branch]      master -> master
+
+kumar@LAPTOP-KGR2K0UQ MINGW64 ~/Downloads/spring/springboot2 (master)
+$
+
+
